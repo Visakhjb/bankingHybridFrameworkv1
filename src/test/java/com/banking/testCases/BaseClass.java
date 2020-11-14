@@ -28,7 +28,7 @@ public class BaseClass {
 	public String baseURL = readconfig.getApplicationURL();
 	public String username= readconfig.getUsername();
 	public String password= readconfig.getPassword();
-	public static WebDriver driver;
+	public static WebDriver driver; //driver will be available in all testcase classes when the base class is extended
 	
 	public static Logger logger; 
 	
